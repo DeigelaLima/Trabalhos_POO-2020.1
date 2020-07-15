@@ -1,6 +1,4 @@
-//package carro;
-
-public class Carro {
+public class Car {
 	
 		int nPessoas = 0;
 		int maxPessoas = 5;
