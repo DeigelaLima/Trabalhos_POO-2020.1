@@ -17,67 +17,52 @@ public class Machine {
 		
 		espirais = new ArrayList<Espiral>();
 		for(int i = 0; i < qtdEspirais; i++)
-			this.espirais.add(new Espiral());//criando espiral
+			this.espirais.add(null);//criando espiral
 	}
 
-	ArrayList<Espiral> getEspirais() {
-		return espirais;
-	}
-
-	void setEspirais(ArrayList<Espiral> espirais) {
-		this.espirais = espirais;
-	}
-
-	int getQtdEspirais() {
+	public int getQtdEspirais() {
 		return qtdEspirais;
 	}
 
-	void setQtdEspirais(int qtdEspirais) {
+	public void setQtdEspirais(int qtdEspirais) {
 		this.qtdEspirais = qtdEspirais;
 	}
 
-	int getMaxProdutos() {
+	public int getMaxProdutos() {
 		return maxProdutos;
 	}
 
-	void setMaxProdutos(int maxProdutos) {
+	public void setMaxProdutos(int maxProdutos) {
 		this.maxProdutos = maxProdutos;
 	}
 
-	float getLucro() {
+	public float getLucro() {
 		return lucro;
 	}
 
-	void setLucro(float lucro) {
+	public void setLucro(float lucro) {
 		this.lucro = lucro;
 	}
 	
-	float getSaldoCliente() {
+	public float getSaldoCliente() {
 		return saldoCliente;
 	}
 	
-	void setSaldoCliente(float saldoCliente) {
+	public void setSaldoCliente(float saldoCliente) {
 		this.saldoCliente = saldoCliente;
 	}
 
-	public String toString() {
-		String saida = "";
-		for(int i = 0; i < espirais.size(); i++)
-			saida += i + " " + espirais.get(i) + "\n";
-		return saida;
-			
-	}
 	//inserindo comida na espiral
 	public boolean set(int ind, String nome, int qtd, float valor) {
 		if(ind < 0 || ind >= getQtdEspirais()) {
 			System.out.println("fail: indice digitando não existe");
 			return false;
 		}
-		//if(espirais.get(ind) != null) {
-			//System.out.println("fail: Estorou o limite da espiral");
-			//return false;
-		//}
-		espirais.set(ind, new Espiral());
+		if(espirais.get(ind) != null) {
+			System.out.println("fail: Estorou o limite da espiral");
+			return false;
+		}
+		espirais.set(ind, new Espiral(ind, nome, qtd, valor));
 		return true;
 	}
 	//limpando espiral
@@ -95,13 +80,55 @@ public class Machine {
 		setSaldoCliente(getSaldoCliente() + valor);
 	}
 	//comprar produto de uma espiral
-	public void comprar(int ind) {
+	public void comprar(int indice) {
+		int sizeEspirais = getQtdEspirais()-1; //diminui 1
 		
+		for(Espiral produto : espirais) {
+			if(produto != null) {
+				if(produto.ind == indice) {
+					if((this.saldoCliente > produto.preco) && (produto.qtd_und > 0)) {
+						System.out.println("Você comprou um " + produto.getNome());
+						setSaldoCliente(this.saldoCliente - produto.preco);
+						produto.setQtd_und(produto.getQtd()-1); //diminui 1 na unidade
+						break;
+					}
+					else if((this.saldoCliente > 0) && (produto.qtd_und == 0)) {
+						System.out.println("fail: A espiral está sem produto.");
+						break;
+					}
+					else if((this.saldoCliente < produto.preco) && (this.saldoCliente > 0 || 
+							this.saldoCliente == 0) && (produto.qtd_und > 0)) {
+						System.out.println("fail: Seu saldo é insuficiente.");
+						break;
+					}
+				}
+				else if(indice > sizeEspirais) {
+					System.out.println("fail: indice digitado não existe.");
+					break;
+				}
+			}
+		}
 		
-	}
-	public void troco() {
-		System.out.println("Você recebeu" + getSaldoCliente() + "R$");
-		setSaldoCliente(0);
 	}
 	
+	public void troco() {
+		System.out.println("Você recebeu: " + getSaldoCliente() + "0 R$");
+		setSaldoCliente(0);
+	}
+	@Override
+	public String toString(){
+		int ind = 0;
+		//for(int i = 0; i < espirais.size(); i++)
+			//saida += i + " " + espirais.get(i) + "\n";
+		String saida = "Saldo: " + getSaldoCliente() + "0\n";
+			for(Espiral produto : espirais) {
+				if((produto == null) && ind < (getQtdEspirais())) {
+					saida += ind + " [ empty : 0 U : 0.00 R$ ] \n";
+			    }else if((produto != null) && (ind < getQtdEspirais())) {
+			    	saida += ind + " [ "+ produto + "] \n";
+			    }ind ++; //incrementar o ind da espiral
+		
+	        }
+			return saida;
+  }
 }

@@ -14,6 +14,7 @@ public class Principal {
 		while(true) {
 			
 			String line = scanner.nextLine();
+			System.out.println("$" + line);
 			String input[] = line.split(" ");
 			String cmd = input[0];
 			
