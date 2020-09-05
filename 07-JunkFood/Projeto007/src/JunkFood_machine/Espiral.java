@@ -14,7 +14,7 @@ public class Espiral {
 
 	@Override
 	public String toString() {
-		return "[" + this.nome + ":" + this.qtd + "U : " + this.preco + " R$" + "]";
+		return "[" + this.nome + ": " + this.qtd + " U : " + this.preco + " R$" + "]";
 	}
 	
 	
