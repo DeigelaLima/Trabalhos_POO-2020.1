@@ -19,7 +19,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi e não tive muita dificuldade.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Leivei uns 40 minutos.
+    * Leivei uma hora minutos.
 
 ## Segundo Projeto - My_cat 
 * O que você fez e sabe fazer do trabalho? <p>
@@ -49,7 +49,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi. Tive dificuldade só em entender a lógica.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uma hora e meia.
+    * Levei umas três horas.
 
 ## 02 - Motoca
 * O que você fez e sabe fazer do trabalho? <p>
@@ -59,7 +59,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi. Dificuldade em estruturar a lógica.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uma hora e meia para fazer.
+    * Levei umas três para fazer.
 
 ## 03 - Vetores
 * O que você fez e sabe fazer do trabalho? <p>
@@ -69,7 +69,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi adicionar, remover, inserir um valor na posição no indice da estrutura de um vetor. Ainda tenho em algumas métodos.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uma duas horas.
+    * Levei umas quatro horas.
 
 ## 04 - Tamagotchi
 * O que você fez e sabe fazer do trabalho? <p>
@@ -77,10 +77,10 @@
 * Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
     * Fiz com ajuda de uma colega que já tinha feito a disciplina e com ajuda do monitor.
 * O que a prendeu e o que ainda tem dificuldade? <p>
-    * Sei fazer a maioria dos métodos. Ainda tenho diculdade, foi um dos trabalho que tive mais dificuldade de fazer.
+    * Sei fazer a maioria dos métodos. Ainda tenho dificuldade, foi um dos trabalho que tive mais dificuldade de fazer.
 
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uns dois dias.
+    * Levei uns quatro dias.
 
 ## 05 - Parquinho
 * O que você fez e sabe fazer do trabalho? <p>
@@ -90,7 +90,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi a utilizar o ArrayList. Dificuldade em desenvolver uma lógica e estruturar.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uma hora.
+    * Levei umas duas hora.
 
 ## 06 - Carro_com_banco
 * O que você fez e sabe fazer do trabalho? <p> 
@@ -100,7 +100,7 @@
 * O que a prendeu e o que ainda tem dificuldade? <p>
     * Aprendi a lógica. Tive dificuldade de estruturar o toString.
 * Quanto tempo levou para realizar a atividade? <p>
-    * Levei uma duas horas.
+    * Levei umas três horas.
 
 ## 07 - JunkFood
 * O que você fez e sabe fazer do trabalho? <p> 
@@ -112,3 +112,14 @@
 * Quanto tempo levou para realizar a atividade? <p>
     * Levei umas duas e meia.
 
+## 08 - Agenda1
+* O que você fez e sabe fazer do trabalho? <p>
+    Fiz o código completo. Sei fazer.
+* Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
+    Fiz com ajuda da videoaula do professor, assisti novamente e fui fazendo o código e colocando alguns comentários que achei necessário para melhor entendimento.  
+* O que a prendeu e o que ainda tem dificuldade <p>
+    Aprendi a utilizar algumas fuções (indexOf e charAt). Tive dificuldade no método Validar.
+* Quanto tempo levou para realizar a atividade? <p>
+    Levei umas duas horas e meia.
+
+## 09 - Agência Bancária
