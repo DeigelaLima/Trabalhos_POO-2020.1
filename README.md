@@ -114,34 +114,34 @@
 
 ## 08 - Agenda1
 * O que você fez e sabe fazer do trabalho? <p>
-    Fiz o código completo. Sei fazer.
+    * Fiz o código completo. Sei fazer.
 * Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
-    Fiz com ajuda da videoaula do professor, assisti novamente e fui fazendo o código e colocando alguns comentários que achei necessário para melhor entendimento.  
+    * Fiz com ajuda da videoaula do professor, assisti novamente e fui fazendo o código e colocando alguns comentários que achei necessário para melhor entendimento.  
 * O que aprendeu e o que ainda tem dificuldade <p>
-    Aprendi a utilizar algumas fuções (indexOf e charAt). Tive dificuldade no método Validar.
+    * Aprendi a utilizar algumas fuções (indexOf e charAt). Tive dificuldade no método Validar.
 * Quanto tempo levou para realizar a atividade? <p>
-    Levei umas quatro horas.
+    * Levei umas quatro horas.
 
 ## 09 - Agência Bancária 2
 * O que você fez e sabe fazer do trabalho? <p>
-    Fiz o código completo. Sei fazer boa parte.
+    * Fiz o código completo. Sei fazer boa parte.
 * Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
-    Fiz o trabalho com ajuda do monitor, pesquisa e de algumas videoaulas. 
+    * Fiz o trabalho com ajuda do monitor, pesquisa e de algumas videoaulas. 
 * O que aprendeu e o que ainda tem dificuldade <p>
-    Aprendi utilizar herança. Tive dificuldade em alguns métodos (AtualizarMensal e Transferir).
+    * Aprendi utilizar herança. Tive dificuldade em alguns métodos (AtualizarMensal e Transferir).
 
 * Quanto tempo levou para realizar a atividade? <p>
-    Levei uns quatro dias.
+    * Levei uns quatro dias.
 
 ## 10 - Twitter
 * O que você fez e sabe fazer do trabalho? <p>
-    Fiz 70% do código.
+    * Fiz 70% do código.
 * Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
-    Fiz com ajuda de videoaulas, pesquisas e monitoria.
+    * Fiz com ajuda de videoaulas, pesquisas e monitoria.
 * O que aprendeu e o que ainda tem dificuldade <p>
-    Tive bastante dificuldade de entender a lógica, foi muito complexo esse negócio de seguidos e seguidores. 
+    * Tive bastante dificuldade de entender a lógica, foi muito complexo esse negócio de seguidos e seguidores. 
 * Quanto tempo levou para realizar a atividade? <p>
-    Levei uns dois dias.
+    * Levei uns dois dias.
 
 
 

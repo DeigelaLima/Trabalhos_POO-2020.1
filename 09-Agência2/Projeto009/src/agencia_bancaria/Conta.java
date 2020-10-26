@@ -29,10 +29,7 @@ public class Conta{
 		}
 		
 		public void transferir(Conta other, float value) {
-			if(this.saldo - value >=  0) {
-				this.saldo -= value;
-				other.depositar(value);
-			}
+			other.saldo += value;
 		}
 		public interface atualizar{
             public void atualizarMensal();
