@@ -135,9 +135,9 @@
 
 ## 10 - Twitter
 * O que você fez e sabe fazer do trabalho? <p>
-    * Fiz 70% do código.
+    * Fiz 70% do código. Sei algumas coisas.
 * Você fez sozinho ou com ajuda, ajuda de quem, como dividiram a atividade? <p>
-    * Fiz com ajuda de videoaulas, pesquisas e monitoria.
+    * Fiz com ajuda das videoaulas do senhor, onde explica o twiteer, fiz algumas pesquisas. Tentei fazer todos métodos, só que não deu muito certo. Os métodos que estão funcionando, são o Adicionar Usuário e Seguir.
 * O que aprendeu e o que ainda tem dificuldade <p>
     * Tive bastante dificuldade de entender a lógica, foi muito complexo esse negócio de seguidos e seguidores. 
 * Quanto tempo levou para realizar a atividade? <p>
