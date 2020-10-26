@@ -1,5 +1,6 @@
 package twitter;
 
+import java.util.Collection;
 import java.util.TreeMap;
 
 public class Sistema {
@@ -23,6 +24,22 @@ public class Sistema {
 		if(usuario == null)
 			throw new RuntimeException("fail: usuario não encontrado");
 		return usuario;
+	}
+	
+	//public void usuarioTweetar(String nome, String msg) {
+		//getUsuario(nome).twittar(new Tweet(nome, msg));
+	//}
+	
+	public void verTimeline(String nome) {
+		getUsuario(nome).lerTimeline();
+	}
+	
+	public void darLike(String nome, int idTweet) {
+		getUsuario(nome).lerTimeline();
+	}
+	
+	Collection<Usuario> getAll(){
+		return this.usuarios.values();
 	}
 	
 	@Override
